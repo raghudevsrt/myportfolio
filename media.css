@@ -1,0 +1,202 @@
+@media screen and (max-width: 600px) {
+
+
+    .heading {
+        padding-top: 80px;
+    }
+    /* home section start */
+    .home{
+        width: 100%;
+        height: 100vh;
+        background: rgb(0, 0, 0);
+        margin-top: 70px;
+        color: #fff;
+        background-image: url(bg.jpg) ;
+        background-position: center;
+      
+    }
+
+    .header-text {
+       text-align: center;
+       padding-top: 60%;
+
+    }
+    .header-text p{
+        margin: 0;
+        font-size: 22px;
+
+    }
+    
+    .header-text span{
+       font-size:35px;
+    }
+    .header-text h3{
+
+        font-size: 25px;
+    }
+    /* home section end  */
+    /* about section start */
+
+    .about{
+        width: 100%;
+        height: 100%;
+        background: #000;
+        color: #fff;
+    }
+    .about-image{
+        display: flex;
+        gap:10px;
+        align-items: center;
+    }
+    .about-image{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .about-info{
+        padding: 20px;
+        font-size: 15px;
+        line-height: 1.6;
+        text-indent: 70px;
+        text-align: justify;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+        
+    }
+    .profile-pic{
+        text-align: center;
+
+    }
+
+    /* table start */
+    h4.sub-title{
+        margin: 0px 0px 8px 0px;
+    }
+    .table{
+        font-size: 10px;
+        width: 100%;
+        height: 100px;
+        margin: 0;
+    }
+    /* table section finish */
+    /* certificate start */
+    .certificate{
+        width: 100%;
+        height: 80vh;
+    }
+    img.certificate-img 
+    {
+        width:300px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+    /* certificate end */
+    /* contact start */
+    h3.headingc{
+        padding-top: 80px;
+    }
+    #contact{
+        width: 100%;
+        height: 100%;
+       
+    }
+    #comments{
+        width: 100%;
+    }
+    .btn{
+        margin-bottom: 25px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .col{
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: flex-start;
+    }
+    .contact-lists{
+        text-align: start;
+        margin: 0;
+        padding: 10px;
+    }
+
+    
+    /* contact end */
+}
+
+@media screen and (max-width: 1020px) {
+    /* home section start */
+     .home{
+        margin-top: 70px;
+     }
+    /* home section end */
+    
+    /* about section start */
+    .about{
+        width: 100%;
+        height: 100%;
+        background: #000;
+        color: #fff;
+    }
+    .about-info{
+        padding: 30px 5px 10px;
+        font-size: 15px;
+        line-height: 1.6;
+        text-indent: 70px;
+        text-align: justify;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+        
+    }
+    /* about section end  */
+    /* certificate start */
+    .certificate{
+        width: 100%;
+        height: 130vh;
+    }
+    .certificate-img{
+        width: 600px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    h3.headingc{
+        padding-top: 80px;
+    }
+
+    .row{
+        padding-bottom: 20px;
+    }
+
+    /* certificate end */
+
+}
+
+
+@media screen and (max-width:1439px){
+    /* about start */
+    .about{
+        width: 100%;
+        height: 100%;
+    }
+    /* about start */
+
+
+    /* certificate section start */
+    .certificate-img{
+        width: 900px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /* certificate section start */
+}
+
+@media screen and (max-width:2400){
+    .contact{
+        width: 100%;
+        height: 100%;
+    }
+}
