@@ -8,6 +8,9 @@ body{
 .row{
     padding-bottom: 10px;
 }
+a{
+   text-decoration: none;
+}
 
 /* nav bar start */
 
