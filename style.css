@@ -1,0 +1,275 @@
+:root{
+    --color: #ffbb00;
+    --primarycolor: #fff;
+ }
+body{
+    background: #000;
+}
+.row{
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+/* nav bar start */
+
+.navbar{
+    
+    background: rgb(94, 91, 91);
+}
+.navbar-nav{
+    margin-left: auto;
+    color: var(--primarycolor);
+}
+
+.navbar a.navbar-brand{
+   color: var(--color);
+   font-size: 30px;
+   text-decoration: none;
+   font-weight: 600;
+   padding-left: 30px;
+}
+
+.nav-item a.nav-link {      
+    color: #fff;
+    margin:20px ;
+    padding: 0px 0px;
+    position: relative;
+  
+    
+}
+.navbar .nav-item a.active{     /*.navbar-nav */
+    color: var(--color);
+    margin: 20px 20px;
+    padding: 0;
+    position: relative;
+   
+
+}
+
+a.nav-link::after{              /*.navbar-nav .nav-item */
+    content: none;
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--color);
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-item a.nav-link:hover::after{
+    width: 100%;
+}
+
+
+
+/* nav bar end  */
+
+
+/* home section start */
+
+.home{
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url(/bg.jpg); */
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    margin-top: 80px;
+    color: #fff;
+    background-image: url(bg.jpg) ;
+    background-position: center;
+   
+    
+   
+  
+}
+.headerbox {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 50%;
+   padding: 50px;
+ 
+}
+
+.header-text {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20%;
+    
+    
+
+}
+.header-text p{
+    margin: 0;
+}
+.header-text h3{
+    font-size: 40px ;
+}
+.header-text span{
+    
+    color: transparent;
+    font-weight: bold;
+    font-size: 50px;
+    /* -webkit-text-stroke:.5px #fff; */
+    background:linear-gradient( #ffbb00, #ffbb00);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -260px 0;
+    animation: backcolor 6s linear infinite alternate;
+}
+
+@keyframes backcolor{
+    100%{
+        background-position: 0  0;
+    }
+}
+/* about section start */
+.about{
+    width: 100%;
+    height: 150vh;
+    background: #000;
+    color: #fff;
+}
+
+.heading {
+    color: var(--primarycolor);
+    padding-top:90px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.about-image{
+    display: flex;
+    gap:40px;
+    margin-bottom: 20px;
+
+
+}
+
+.about-info{
+    padding: 30px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-indent: 70px;
+    text-align: justify;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    
+}
+
+.profile-pic{
+    width: 250px;
+    height: 350px;
+    margin: 25px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+   
+}
+
+.sub-title{
+    margin-left: 25px;
+
+}
+
+.table {
+    margin: 30px 0px 10px 50px;
+    width: 95%;
+    height: 200px;
+}
+/* about section end */
+
+/* certificate section start */
+.certificate{
+    
+    width: 100%;
+    height: 150vh;
+    background: #000;
+    
+    
+}
+
+.certificate-imgc{
+    text-align: center;
+    
+}
+
+.certificate-img{
+    margin-bottom:50px ;
+}
+/* certificate section end */
+
+/* contact start */
+.contact{
+    width: 100%;
+    height: 100%;
+    background: var(--color);
+    
+}
+.col{
+    padding: 20px;
+    border-radius: 20px;
+    background: rgb(100, 97, 97);
+    margin-right: 20px;
+}
+.headingc {
+    color: var(--primarycolor);
+    padding-top:90px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#comments{
+    width: 100%;
+    margin-top: 0px;
+    padding: 6px 24px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    /* -webkit-overflow-scrolling:var(--color); */
+}
+.btn{
+    margin-top: 25px;
+    width: 250px;
+}
+
+
+.contact-lists{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction:column;
+    gap: 10px;
+    text-align: center;
+    background: rgb(100, 97, 97);
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+   
+}
+.contacth{
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.contact-list{
+    align-items: center;
+    list-style: none;
+}
+
+.icons{
+    width: 40px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+/* contact end */
